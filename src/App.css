@@ -1,0 +1,73 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  background-color: #1a1f21;
+} 
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.mic-button {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #9db0b8;
+}
+
+.mic-button.active {
+  background-color: #e3bfbc;
+}
+
+.mic-icon {
+  color: red;
+}
+
+.loader {
+  display: block;
+  margin: 20px auto;
+}
+
+.message {
+  display: block;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.error {
+  display: block;
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+}
+

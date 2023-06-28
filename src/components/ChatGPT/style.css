@@ -1,0 +1,30 @@
+/* ChatGPT.css */
+
+.chat-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .reset-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+  
+  .reset-button:active {
+    background-color: #3e8e41;
+  }
+  
+  .reset-button:focus {
+    box-shadow: 0 0 0 2px #4caf50;
+  }
+  
